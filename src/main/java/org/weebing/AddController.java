@@ -24,7 +24,6 @@ public class AddController {
 		ModelAndView view = new ModelAndView();
 		view.setViewName("display");
 		view.addObject("result", k);
-		
 		return view;
 	}
 }
